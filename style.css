@@ -1,0 +1,285 @@
+html{
+zoom: 100%;
+overflow-x:hidden;
+}
+body {
+    font-family: Trebuchet MS;
+
+}
+h1 {  
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+color: #FFFFFF;
+position: absolute;
+left: 35%;
+top: 430px;
+}
+
+h4 {
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+color: #0F245A;
+}
+
+b {
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+
+h2 {
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+color: #11133D;
+}
+
+.inf-p {
+color: #15386B;
+width: 554px;
+height: 158px;
+left: 56px;
+top: 889px;
+}
+
+p {
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #000000;
+}
+
+header {
+background-image: url(1.png);
+background-size: cover;
+background-repeat: no-repeat;
+height: 646px;
+width: 100%;
+position: relative;
+}
+
+.nav-link {
+font-style: normal;
+color: #FFFFFF;
+text-decoration: none;
+width: 93px;
+height: 42px;
+font-size: 25px;
+}
+
+nav {
+position: absolute;
+width: 100%;
+top: 580px;
+justify-content: space-around;
+display: flex;
+}
+
+.info {
+position: absolute;
+top: 80px;
+width: 100%;
+}
+
+.info-div {
+width: 50%;
+float: left;
+margin-left: 5%;
+}
+
+.info-img {
+display: block;
+float: right;
+height: 300px;
+margin-right: 5%;
+
+}
+
+.menu {
+position: absolute;
+top: 480px;
+width: 100%;
+left: 0;
+}
+.menu h2{
+
+margin-left: 5%;
+}
+.elem::after{
+content: url("18.png");
+display: inline-block;
+
+}
+.menu-cards1, .menu-cards2, .menu-cards3, .menu-cards4{
+width: 100%;
+margin-left: 5%;
+}
+
+
+.card1,  .card2,  .card3,  .card4{
+width: 27%;
+float: left;
+}
+
+.buy {
+    position: relative;
+    top: -200px;
+    left: 89px;
+display: block;
+width: 50px;
+text-align: center;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+background: #4AFF1D;
+padding: 8px;
+opacity: 0.7;
+}
+.buy-top {
+    position: relative;
+   top:-240px;
+    left: 89px;
+display: block;
+width: 50px;
+text-align: center;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+background: #4AFF1D;
+padding: 8px;
+opacity: 0.7;
+}
+
+.rev {
+position: absolute;
+top: 2380px;
+width: 100%;
+left: 0;
+}
+
+.rev-div {
+margin-left: 5%;
+}
+
+.rev h2{
+margin-left: 5%;
+}
+.rev-card img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 5%;
+   
+}
+.rev-div2 {
+    
+}
+
+h5 {
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+}
+
+.footer-info {
+
+margin-left: 5%;
+}
+
+.footer-img {
+width: 74px;
+height: 67px;
+}
+
+.number {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+color: #ffffff;
+}
+
+.phone-number {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+color: #ffffff;
+}
+
+main {
+    position: relative;
+    width: 100%;
+}
+
+footer {
+position: relative;
+width: 100%;
+top: 3000px;
+background-color: #2A2A87;
+}
+
+.buy:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.buy-top:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #31319D;
+    background-color: white;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+}
+
+.social {
+    color: white;
+}
+
+.fix {
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    background-color: tomato;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.fix a {
+    position: relative;
+    top: 40%;
+    text-decoration: none;
+    color: black;
+}
+
+.fix:hover {
+    transform: scale(1.1);
+    background-color: coral;
+    transition: 0.2s;
+    border: 2px solid yellow;
+}
+
+.fix a:hover {
+    color: yellow;
+    transition: 0.2;
+}
